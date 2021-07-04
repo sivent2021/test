@@ -18,5 +18,5 @@
       repo: https://github.com/anfederico/flaskex
       dest: /home/oem/flaskex
   - name: run flaskex
-    shell: cd /home/oem/flaskex && pip install -r requirements.txt && python3 app.py  
+    shell: cd /home/oem/flaskex && pip install -r requirements.txt && python3 app.py
 
