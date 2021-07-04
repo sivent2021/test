@@ -1,0 +1,5 @@
+docker
+	docker build -t first .
+	docker run -p 5000:5000 first
+	
+	ansible-playbook install.yml --ask-become-pass
