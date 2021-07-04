@@ -16,7 +16,7 @@
   - name: flaskex
     git:
       repo: https://github.com/anfederico/flaskex
-      dest: /home/oem/flaskex
+      dest: /opt/flaskex
   - name: run flaskex
-    shell: cd /home/oem/flaskex && pip install -r requirements.txt && python3 app.py
+    shell: cd /opt/flaskex && pip install -r requirements.txt && python3 app.py
 
